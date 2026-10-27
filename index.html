@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f7fb">
+    <meta
+      name="description"
+      content="A little corner of the internet about learning to code."
+    >
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="card">
+      <div class="icon" aria-hidden="true">&lt;/&gt;</div>
+      <p class="eyebrow">A little corner of the internet</p>
+      <h1>My First Website</h1>
+      <p class="subtitle">Created for 7N with Github Copilot</p>
+      <p class="intro">
+        Hi! I’m learning to code and discovering how a few lines of HTML, CSS,
+        and JavaScript can bring an idea to life. This is my first step on a
+        creative adventure.
+      </p>
+      <button class="hello-button" id="hello-button" type="button">
+        Click to say hello
+        <span aria-hidden="true">&rarr;</span>
+      </button>
+      <p class="greeting" id="greeting" role="status" aria-live="polite"></p>
+      <div class="button-playground" id="button-playground">
+        <button class="hello-button dodge-button" id="dodge-button" type="button">
+          Try to click me
+        </button>
+      </div>
+      <p class="greeting" id="dodge-message" role="status" aria-live="polite"></p>
+      <p class="footer-note">Made with curiosity and a little bit of code</p>
+    </main>
+  </body>
+</html>
